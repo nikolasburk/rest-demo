@@ -2,6 +2,8 @@
 
 You can find more info about this repository and how to wrap the REST API it contains with GraphQL [here](https://medium.com/@graphcool/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d).
 
+> The GraphQL API wrapping this REST API can be found [here](https://github.com/nikolasburk/graphql-rest-wrapper)
+
 ## Routes
 
 ```
