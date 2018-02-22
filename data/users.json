@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "user-0",
+      "name": "Nikolas",
+      "postIds": []
+    },
+    {
+      "id": "user-1",
+      "name": "Sarah",
+      "postIds": ["post-0", "post-1"]
+    },
+    {
+      "id": "user-2",
+      "name": "Johnny",
+      "postIds": ["post-2"]
+    },
+    {
+      "id": "user-3",
+      "name": "Jenny",
+      "postIds": ["post-3", "post-4"]
+    }
+  ]
+}

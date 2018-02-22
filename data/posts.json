@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "post-0",
+      "title": "I like GraphQL",
+      "content": "I really do!",
+      "published": false,
+      "authorId": "user-1"
+    },
+    {
+      "id": "post-1",
+      "title": "GraphQL is better than REST",
+      "content": "It really is!",
+      "published": false,
+      "authorId": "user-1"
+    },
+    {
+      "id": "post-2",
+      "title": "GraphQL is awesome!",
+      "content": "You bet!",
+      "published": false,
+      "authorId": "user-2"
+    },
+    {
+      "id": "post-3",
+      "title": "Is REST really that bad?",
+      "content": "Not if you wrap it with GraphQL!",
+      "published": false,
+      "authorId": "user-3"
+    },
+    {
+      "id": "post-4",
+      "title": "I like turtles!",
+      "content": "...",
+      "published": false,
+      "authorId": "user-3"
+    }
+  ]
+}
