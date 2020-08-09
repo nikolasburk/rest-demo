@@ -46,11 +46,11 @@ const authorForPost = (req, res) => {
 const notfound = (req, res) => send(res, 404, 'Not found route')
 
 module.exports = router(
-  get('/users', users),
+  get('/users/:id/posts', postsForUser),  
   get('/users/:id', userById),
-  get('/users/:id/posts', postsForUser),
-  get('/posts', posts),
-  get('/posts/:id', postById),
+  get('/users', users),
   get('/posts/:id/user', authorForPost),
+  get('/posts/:id', postById),
+  get('/posts', posts),
   get('/*', notfound),
 )
